@@ -1,0 +1,25 @@
+All statistics are based on contigs of size >= 3000 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    HetTit1.0.p.genome  HetTit1.0.p.genome_broken  HetTit1.0.a.genome
+# contigs (>= 0 bp)         75                  4094                       4054              
+# contigs (>= 1000 bp)      75                  4094                       4054              
+# contigs (>= 5000 bp)      75                  4094                       4054              
+# contigs (>= 10000 bp)     74                  4080                       4043              
+# contigs (>= 25000 bp)     48                  3874                       3871              
+# contigs (>= 50000 bp)     28                  3533                       3529              
+Total length (>= 0 bp)      1444697970          1444296070                 1445542320        
+Total length (>= 1000 bp)   1444697970          1444296070                 1445542320        
+Total length (>= 5000 bp)   1444697970          1444296070                 1445542320        
+Total length (>= 10000 bp)  1444688748          1444173534                 1445445168        
+Total length (>= 25000 bp)  1444264645          1440496826                 1442235848        
+Total length (>= 50000 bp)  1443604017          1427755254                 1429703052        
+# contigs                   75                  4094                       4054              
+Largest contig              151479759           4037799                    3160621           
+Total length                1444697970          1444296070                 1445542320        
+GC (%)                      39.10               39.10                      39.11             
+N50                         120343728           638359                     631942            
+N90                         97068442            169648                     176305            
+auN                         120214200.6         852126.3                   803964.5          
+L50                         6                   639                        664               
+L90                         11                  2326                       2332              
+# N's per 100 kbp           27.82               0.00                       0.00              

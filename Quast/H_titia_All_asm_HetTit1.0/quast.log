@@ -1,0 +1,112 @@
+/nobackup/dbl0hpc/apps/miniconda3/envs/quast/bin/quast.py /nobackup/tmjj24/H_titia_genome/Master/Hifiasm/H_titia.asm.bp.hap1.p_ctg.fa /nobackup/tmjj24/H_titia_genome/Master/Hifiasm/H_titia.asm.bp.hap2.p_ctg.fa /nobackup/tmjj24/H_titia_genome/Master/purge_dups/H_titia.asm.bp.hap1.p_ctg.fa.purged.fa /nobackup/tmjj24/H_titia_genome/Master/purge_dups/H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa /nobackup/tmjj24/H_titia_genome/Master/BlobToolKit/H_titia.asm.bp.hap1.p_ctg.fa.purged.fa.uncont.filtered.fa /nobackup/tmjj24/H_titia_genome/Master/BlobToolKit/H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa.uncont.filtered.fa /nobackup/tmjj24/H_titia_genome/Master/BlobToolKit/H_titia.asm.bp.hap1.p_ctg.fa.purged.fa.uncont.filtered.filtered.fa /nobackup/tmjj24/H_titia_genome/Master/BlobToolKit/H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa.uncont.filtered.filtered.fa /nobackup/tmjj24/H_titia_genome/Master/RagTag/Hap1/H_titia.asm.bp.hap1.p_ctg.fa.purged.fa.uncont.filtered.filtered.scaff.fa /nobackup/tmjj24/H_titia_genome/Master/RagTag/Hap2/H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa.uncont.filtered.filtered.scaff.fa /nobackup/tmjj24/H_titia_genome/Master/HiRise/HetTit1.0.p.genome.fasta -o /nobackup/tmjj24/H_titia_genome/Master/QUAST/H_titia_All_asm_HiRise -t 24 --eukaryote --large
+
+Version: 5.2.0
+
+System information:
+  OS: Linux-4.18.0-372.26.1.el8_6.x86_64-x86_64-with-centos-8.6-Green_Obsidian (linux_64)
+  Python version: 3.7.12
+  CPUs number: 128
+
+Started: 2023-06-15 12:04:11
+
+Logging to /nobackup/tmjj24/H_titia_genome/Master/QUAST/H_titia_All_asm_HiRise/quast.log
+NOTICE: Output directory already exists and looks like a QUAST output dir. Existing results can be reused (e.g. previously generated alignments)!
+
+CWD: /home/tmjj24
+Main parameters: 
+  MODE: large, threads: 24, eukaryotic: true, min contig length: 3000, min alignment length: 500, \
+  min alignment IDY: 95.0, ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 7000
+
+Contigs:
+  Pre-processing...
+  1  /nobackup/tmjj24/H_titia_genome/Master/Hifiasm/H_titia.asm.bp.hap1.p_ctg.fa ==> H_titia.asm.bp.hap1.p_ctg
+  2  /nobackup/tmjj24/H_titia_genome/Master/Hifiasm/H_titia.asm.bp.hap2.p_ctg.fa ==> H_titia.asm.bp.hap2.p_ctg
+  3  /nobackup/tmjj24/H_titia_genome/Master/purge_dups/H_titia.asm.bp.hap1.p_ctg.fa.purged.fa ==> H_titia.asm.bp.hap1.p_ctg.fa.purged
+  4  /nobackup/tmjj24/H_titia_genome/Master/purge_dups/H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa ==> H_titia.asm.bp.hap2.p_ctg.fa.purged.purged
+  5  /nobackup/tmjj24/H_titia_genome/Master/BlobToolKit/H_titia.asm.bp.hap1.p_ctg.fa.purged.fa.uncont.filtered.fa ==> H_titia.asm.bp.hap1.p_ctg.fa.purged.fa.uncont.filtered
+  6  /nobackup/tmjj24/H_titia_genome/Master/BlobToolKit/H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa.uncont.filtered.fa ==> H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa.uncont.filtered
+  7  /nobackup/tmjj24/H_titia_genome/Master/BlobToolKit/H_titia.asm.bp.hap1.p_ctg.fa.purged.fa.uncont.filtered.filtered.fa ==> H_titia.asm.bp.hap1.p_ctg.fa.purged.fa.uncont.filtered.filtered
+  8  /nobackup/tmjj24/H_titia_genome/Master/BlobToolKit/H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa.uncont.filtered.filtered.fa ==> H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa.uncont.filtered.filtered
+  9  /nobackup/tmjj24/H_titia_genome/Master/RagTag/Hap1/H_titia.asm.bp.hap1.p_ctg.fa.purged.fa.uncont.filtered.filtered.scaff.fa ==> H_titia.asm.bp.hap1.p_ctg.fa.purged.fa.uncont.filtered.filtered.scaff
+  10 /nobackup/tmjj24/H_titia_genome/Master/RagTag/Hap2/H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa.uncont.filtered.filtered.scaff.fa ==> H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa.uncont.filtered.filtered.scaff
+  11 /nobackup/tmjj24/H_titia_genome/Master/HiRise/HetTit1.0.p.genome.fasta ==> HetTit1.0.p.genome
+
+2023-06-15 12:06:01
+Running Basic statistics processor...
+  Contig files: 
+    1  H_titia.asm.bp.hap1.p_ctg
+    2  H_titia.asm.bp.hap2.p_ctg
+    3  H_titia.asm.bp.hap1.p_ctg.fa.purged
+    4  H_titia.asm.bp.hap2.p_ctg.fa.purged.purged
+    5  H_titia.asm.bp.hap1.p_ctg.fa.purged.fa.uncont.filtered
+    6  H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa.uncont.filtered
+    7  H_titia.asm.bp.hap1.p_ctg.fa.purged.fa.uncont.filtered.filtered
+    8  H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa.uncont.filtered.filtered
+    9  H_titia.asm.bp.hap1.p_ctg.fa.purged.fa.uncont.filtered.filtered.scaff
+    10 H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa.uncont.filtered.filtered.scaff
+    11 HetTit1.0.p.genome
+  Calculating N50 and L50...
+    1  H_titia.asm.bp.hap1.p_ctg, N50 = 625724, L50 = 662, auN = 840081.1, Total length = 1479832491, GC % = 39.19, # N's per 100 kbp =  0.00
+    2  H_titia.asm.bp.hap2.p_ctg, N50 = 623028, L50 = 681, auN = 796324.0, Total length = 1470089384, GC % = 39.19, # N's per 100 kbp =  0.00
+    3  H_titia.asm.bp.hap1.p_ctg.fa.purged, N50 = 638359, L50 = 641, auN = 852573.2, Total length = 1451438748, GC % = 39.15, # N's per 100 kbp =  0.00
+    4  H_titia.asm.bp.hap2.p_ctg.fa.purged.purged, N50 = 630364, L50 = 667, auN = 803586.0, Total length = 1451741780, GC % = 39.16, # N's per 100 kbp =  0.00
+    5  H_titia.asm.bp.hap1.p_ctg.fa.purged.fa.uncont.filtered, N50 = 640899, L50 = 637, auN = 853834.6, Total length = 1444460519, GC % = 39.10, # N's per 100 kbp =  0.00
+    6  H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa.uncont.filtered, N50 = 631942, L50 = 664, auN = 803964.5, Total length = 1445542320, GC % = 39.11, # N's per 100 kbp =  0.00
+    7  H_titia.asm.bp.hap1.p_ctg.fa.purged.fa.uncont.filtered.filtered, N50 = 640899, L50 = 637, auN = 853913.1, Total length = 1444296070, GC % = 39.10, # N's per 100 kbp =  0.00
+    8  H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa.uncont.filtered.filtered, N50 = 631942, L50 = 664, auN = 803964.5, Total length = 1445542320, GC % = 39.11, # N's per 100 kbp =  0.00
+    9  H_titia.asm.bp.hap1.p_ctg.fa.purged.fa.uncont.filtered.filtered.scaff, N50 = 85692944, L50 = 8, auN = 70609805.4, Total length = 1468674552, GC % = 39.10, # N's per 100 kbp =  1659.90
+    10 H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa.uncont.filtered.filtered.scaff, N50 = 85855893, L50 = 8, auN = 70346805.3, Total length = 1466850784, GC % = 39.11, # N's per 100 kbp =  1452.67
+    11 HetTit1.0.p.genome, N50 = 120343728, L50 = 6, auN = 120214200.6, Total length = 1444697970, GC % = 39.10, # N's per 100 kbp =  27.82
+  Drawing Nx plot...
+    saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/H_titia_All_asm_HiRise/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/H_titia_All_asm_HiRise/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/H_titia_All_asm_HiRise/basic_stats/GC_content_plot.pdf
+  Drawing H_titia.asm.bp.hap1.p_ctg GC content plot...
+    saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/H_titia_All_asm_HiRise/basic_stats/H_titia.asm.bp.hap1.p_ctg_GC_content_plot.pdf
+  Drawing H_titia.asm.bp.hap2.p_ctg GC content plot...
+    saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/H_titia_All_asm_HiRise/basic_stats/H_titia.asm.bp.hap2.p_ctg_GC_content_plot.pdf
+  Drawing H_titia.asm.bp.hap1.p_ctg.fa.purged GC content plot...
+    saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/H_titia_All_asm_HiRise/basic_stats/H_titia.asm.bp.hap1.p_ctg.fa.purged_GC_content_plot.pdf
+  Drawing H_titia.asm.bp.hap2.p_ctg.fa.purged.purged GC content plot...
+    saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/H_titia_All_asm_HiRise/basic_stats/H_titia.asm.bp.hap2.p_ctg.fa.purged.purged_GC_content_plot.pdf
+  Drawing H_titia.asm.bp.hap1.p_ctg.fa.purged.fa.uncont.filtered GC content plot...
+    saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/H_titia_All_asm_HiRise/basic_stats/H_titia.asm.bp.hap1.p_ctg.fa.purged.fa.uncont.filtered_GC_content_plot.pdf
+  Drawing H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa.uncont.filtered GC content plot...
+    saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/H_titia_All_asm_HiRise/basic_stats/H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa.uncont.filtered_GC_content_plot.pdf
+  Drawing H_titia.asm.bp.hap1.p_ctg.fa.purged.fa.uncont.filtered.filtered GC content plot...
+    saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/H_titia_All_asm_HiRise/basic_stats/H_titia.asm.bp.hap1.p_ctg.fa.purged.fa.uncont.filtered.filtered_GC_content_plot.pdf
+  Drawing H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa.uncont.filtered.filtered GC content plot...
+    saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/H_titia_All_asm_HiRise/basic_stats/H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa.uncont.filtered.filtered_GC_content_plot.pdf
+  Drawing H_titia.asm.bp.hap1.p_ctg.fa.purged.fa.uncont.filtered.filtered.scaff GC content plot...
+    saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/H_titia_All_asm_HiRise/basic_stats/H_titia.asm.bp.hap1.p_ctg.fa.purged.fa.uncont.filtered.filtered.scaff_GC_content_plot.pdf
+  Drawing H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa.uncont.filtered.filtered.scaff GC content plot...
+    saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/H_titia_All_asm_HiRise/basic_stats/H_titia.asm.bp.hap2.p_ctg.fa.purged.purged.fa.uncont.filtered.filtered.scaff_GC_content_plot.pdf
+  Drawing HetTit1.0.p.genome GC content plot...
+    saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/H_titia_All_asm_HiRise/basic_stats/HetTit1.0.p.genome_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2023-06-15 12:16:10
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2023-06-15 12:18:06
+RESULTS:
+  Text versions of total report are saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/H_titia_All_asm_HiRise/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/H_titia_All_asm_HiRise/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/H_titia_All_asm_HiRise/report.html
+  PDF version (tables and plots) is saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/H_titia_All_asm_HiRise/report.pdf
+  Icarus (contig browser) is saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/H_titia_All_asm_HiRise/icarus.html
+  Log is saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/H_titia_All_asm_HiRise/quast.log
+
+Finished: 2023-06-15 12:18:10
+Elapsed time: 0:13:58.970286
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

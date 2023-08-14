@@ -1,0 +1,75 @@
+/nobackup/dbl0hpc/apps/miniconda3/envs/quast/bin/quast.py /nobackup/tmjj24/H_titia_genome/Master/Draft_genome_fasta/HetTit1.0.p.genome.fasta /nobackup/tmjj24/H_titia_genome/Master/Draft_genome_fasta/HetTit1.0.a.genome.fasta -o /nobackup/tmjj24/H_titia_genome/Master/QUAST/HetTit1.0 -t 24 --split-scaffolds --eukaryote --large
+
+Version: 5.2.0
+
+System information:
+  OS: Linux-4.18.0-372.26.1.el8_6.x86_64-x86_64-with-centos-8.6-Green_Obsidian (linux_64)
+  Python version: 3.7.12
+  CPUs number: 128
+
+Started: 2023-06-16 11:40:54
+
+Logging to /nobackup/tmjj24/H_titia_genome/Master/QUAST/HetTit1.0/quast.log
+
+CWD: /home/tmjj24
+Main parameters: 
+  MODE: large, threads: 24, eukaryotic: true, split scaffolds: true, min contig length: 3000, \
+  min alignment length: 500, min alignment IDY: 95.0, ambiguity: one, min local misassembly length: 200, \
+  min extensive misassembly length: 7000
+
+Contigs:
+  Pre-processing...
+  1  /nobackup/tmjj24/H_titia_genome/Master/Draft_genome_fasta/HetTit1.0.p.genome.fasta ==> HetTit1.0.p.genome
+  1    breaking scaffolds into contigs:
+  1      75 scaffolds (HetTit1.0.p.genome) were broken into 4094 contigs (HetTit1.0.p.genome_broken)
+  2  /nobackup/tmjj24/H_titia_genome/Master/Draft_genome_fasta/HetTit1.0.a.genome.fasta ==> HetTit1.0.a.genome
+  2    breaking scaffolds into contigs:
+  2      WARNING: nothing was broken, skipping 'HetTit1.0.a.genome broken' from further analysis
+
+2023-06-16 11:42:45
+Running Basic statistics processor...
+  Contig files: 
+    1  HetTit1.0.p.genome
+    2  HetTit1.0.p.genome_broken
+    3  HetTit1.0.a.genome
+  Calculating N50 and L50...
+    1  HetTit1.0.p.genome, N50 = 120343728, L50 = 6, auN = 120214200.6, Total length = 1444697970, GC % = 39.10, # N's per 100 kbp =  27.82
+    2  HetTit1.0.p.genome_broken, N50 = 638359, L50 = 639, auN = 852126.3, Total length = 1444296070, GC % = 39.10, # N's per 100 kbp =  0.00
+    3  HetTit1.0.a.genome, N50 = 631942, L50 = 664, auN = 803964.5, Total length = 1445542320, GC % = 39.11, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/HetTit1.0/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/HetTit1.0/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/HetTit1.0/basic_stats/GC_content_plot.pdf
+  Drawing HetTit1.0.p.genome GC content plot...
+    saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/HetTit1.0/basic_stats/HetTit1.0.p.genome_GC_content_plot.pdf
+  Drawing HetTit1.0.p.genome_broken GC content plot...
+    saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/HetTit1.0/basic_stats/HetTit1.0.p.genome_broken_GC_content_plot.pdf
+  Drawing HetTit1.0.a.genome GC content plot...
+    saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/HetTit1.0/basic_stats/HetTit1.0.a.genome_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2023-06-16 11:45:34
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2023-06-16 11:46:06
+RESULTS:
+  Text versions of total report are saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/HetTit1.0/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/HetTit1.0/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/HetTit1.0/report.html
+  PDF version (tables and plots) is saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/HetTit1.0/report.pdf
+  Icarus (contig browser) is saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/HetTit1.0/icarus.html
+  Log is saved to /nobackup/tmjj24/H_titia_genome/Master/QUAST/HetTit1.0/quast.log
+
+Finished: 2023-06-16 11:46:07
+Elapsed time: 0:05:13.436543
+NOTICEs: 1; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
