@@ -3,7 +3,7 @@ A repository for code used to construct the draft genome of Hetaerina titia
 
 Draft genome of a female *Hetaerina titia* (Sample ID - HXRCb13) collected from Santa María Huatulco, Oaxaca, Mexico (15.74, -96.298) in June 2021 and stored in RNAlater. 
 
-![P1010242_HiFi_Female_HXRCb13](https://github.com/ChristophePatterson/Hetaerina_titia_genome/docs/P1010242_HiFi_Female_HXRCb13.jpeg)
+![P1010242_HiFi_Female_HXRCb13](https://github.com/ChristophePatterson/Hetaerina_titia_genome/blob/main/docs/P1010242_HiFi_Female_HXRCb13.jpeg)
 
 Figure 1: HXRCb13 collected from María Huatulco, Oaxaca, Mexico (15.74, -96.298) in June 2021.
 
@@ -77,7 +77,7 @@ Two Quast reports are retained. Both quast reports can be view in either `.html`
 
 ### (1) Detailed Quast output for the scaffolded primary and alternative assemblies.
 
-Detailed summary statistics for the primary and alternative scaffolded assemblies are retained within the subdirectory ``HetTit1.0`.`.
+Detailed summary statistics for the primary and alternative scaffolded assemblies are retained within the subdirectory `HetTit1.0.`.
 
 ### (2) Basic Quast output for all assemblies
 Basic summary statistics for all assemblies covering the entire pipeline of genome assembly can be found within the subdirectory `H_titia_All_asm_HetTit1.0`. 
