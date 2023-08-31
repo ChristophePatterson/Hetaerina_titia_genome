@@ -137,9 +137,9 @@ circos.track(ylim = c(0, 1), panel.fun = function(x, y) {
 }, track.height = mm_h(1), cell.padding = c(0, 0, 0, 0), bg.border = NA)
 
 highlight.chromosome(chrom$chr[chrom$chr=="HetAmer-chr1"], 
-                     col = "darkolivegreen3", track.index = 2, padding = c(5,0,8,0))
+                     col = "darkolivegreen3", track.index = 2, padding = c(5,0,8,0), border = 1, lwd = 10)
 highlight.chromosome(c("IolEle-chr12", "IolEle-chr9"), 
-                     col = "lightblue", track.index = 2, padding = c(5,0,8,0))
+                     col = "lightblue", track.index = 2, padding = c(5,0,8,0), border = 1, lwd = 10)
 
 set.seed(1)
 
@@ -148,9 +148,9 @@ colour.pall <- rand_color(length(unique(link1$chr)),luminosity = "bright", trans
 
 length(link1$chr)
 circos.genomicLink(link1, link2, col = colour.pall, lwd = 5)
-text(-0.9, -0.8, substitute(italic("I. elegans")), cex = 10)
-text(0.9, 0.8, substitute(italic("H. americana")), cex = 10)
-text(-0.9, 0.9, "C", cex = 15)
+text(-0.8, -0.9, substitute(italic("I. elegans")), cex = 15)
+text(0.8, 0.9, substitute(italic("H. americana")), cex = 15)
+text(-0.9, 0.9, "C", cex = 20)
 
 dev.off()
 

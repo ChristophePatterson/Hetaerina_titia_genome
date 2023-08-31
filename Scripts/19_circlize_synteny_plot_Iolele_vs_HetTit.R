@@ -46,7 +46,7 @@ spp.2.chrom$end <- spp.2.chrom$cum.length
 spp.2.chrom$chr.old <- spp.2.chrom$chr
 spp.2.chrom$chr <- paste0(spp.2,"-chr",sapply(strsplit(spp.2.chrom$chr, split = "-"), "[", 2 ))
 spp.2.chrom <- spp.2.chrom[order(spp.2.chrom$end-spp.2.chrom$start),]
-spp.2.chrom <- spp.2.chrom[spp.2.chrom$end-spp.2.chrom$start>10000000,]
+spp.2.chrom <- spp.2.chrom[spp.2.chrom$end-spp.2.chrom$start>1000000,]
 #remorder largest to smallest
 spp.2.chrom <- spp.2.chrom[order(spp.2.chrom$end-spp.2.chrom$start),]
 
@@ -117,7 +117,7 @@ circos.track(ylim = c(0, 1), panel.fun = function(x, y) {
   xlim = CELL_META$xlim
   ylim = CELL_META$ylim
   
-  circos.rect(xlim[1], 0, xlim[2],1,lwd = 2, col = chrom$spp.col[which(chrom$chr==CELL_META$sector.index)])
+  circos.rect(xlim[1], 0, xlim[2],1,lwd = 3, col = chrom$spp.col[which(chrom$chr==CELL_META$sector.index)])
   
 }, track.height = 0.15, bg.border = NA)
 
@@ -135,9 +135,9 @@ circos.track(ylim = c(0, 1), panel.fun = function(x, y) {
 }, track.height = mm_h(1), cell.padding = c(0, 0, 0, 0), bg.border = NA)
 
 highlight.chromosome(chrom$chr[chrom$chr=="HetTit-chr1"], 
-                     col = "orange", track.index = 2, padding = c(5,0,8,0))
+                     col = "orange", track.index = 2, padding = c(5,0,8,0), border = 1, lwd = 10)
 highlight.chromosome(c("IolEle-chr12", "IolEle-chr9"), 
-                     col = "lightblue", track.index = 2, padding = c(5,0,8,0))
+                     col = "lightblue", track.index = 2, padding = c(5,0,8,0), border = 1, lwd = 10)
 
 set.seed(1)
 colour.pall <- rand_color(length(unique(link1$chr)),luminosity = "bright", transparency = 0)[sapply(link1$chr, function(x) which(unique(link1$chr)==x))]
@@ -145,9 +145,9 @@ colour.pall <- rand_color(length(unique(link1$chr)),luminosity = "bright", trans
 
 length(link1$chr)
 circos.genomicLink(link1, link2, col = colour.pall, lwd = 5)
-text(-0.9, -0.8, substitute(italic("I. elegans")), cex = 10)
-text(0.9, 0.8, substitute(italic("H. titia")), cex = 10)
-text(-0.9, 0.9, "A", cex = 15)
+text(-0.8, -0.9, substitute(italic("I. elegans")), cex = 15)
+text(0.8, 0.9, substitute(italic("H. titia")), cex = 15)
+text(-0.9, 0.9, "A", cex = 20)
 
 dev.off()
 
