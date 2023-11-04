@@ -64,6 +64,10 @@ From start to finish running all scripts will take approximately 5 days.
 	- 18_circlize_synteny_plot_HetTit_vs_HetAmer.R
 	- 18_circlize_synteny_plot_Iolele_vs_HetTit.R
 
+The following script is for further analysis suggested by reviewers of the manuscript. This analysis provides further comparison between our and other odonate genomes but does not alter the genome assembly itself.
+
+- 20_Revisions.sh
+
 
 # Hi-C scaffolding
 
