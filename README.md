@@ -1,5 +1,7 @@
 # Hetaerina_titia_genome
-A repository for code used to construct the draft genome of Hetaerina titia
+A repository for code used to construct the draft genome of Hetaerina titia.
+
+Published in Journal of Heredity: https://academic.oup.com/jhered/advance-article/doi/10.1093/jhered/esad070/7439586
 
 Draft genome of a female *Hetaerina titia* (Sample ID - HXRCb13) collected from Santa María Huatulco, Oaxaca, Mexico (15.74, -96.298) in June 2021 and stored in RNAlater. 
 
