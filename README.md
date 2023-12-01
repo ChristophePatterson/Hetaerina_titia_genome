@@ -30,7 +30,7 @@ The following programmes were used during the contruction.
 - Mitos - mitogenome annotation
 - Blob toolkit/Blastn - contamination and figure creation
 - HiRise for Hi-C scaffold construction
-- BUSCO - genome completion statistics
+- BUSCO - Genome completion statistics
 - QUAST - Genome statistics
 
 # Scripts
@@ -39,7 +39,7 @@ All scripts used to construct the draft genome are stored within the directory `
 
 Because the final scaffolded assembly was created using the proprietary software HiRise it is not possible, currently, to construct the Hi-C scaffolded assembly ourselves
 
-From start to finish running all scripts will take approximately 5 days.
+From start to finish running all scripts will take approximately 5 days (Using a Hamilton8 Durham University's HPC).
 
 - 0_jellyfish.sh
 - 1_HifiAdatp-Hifiasm-purge_dups.sh
@@ -69,6 +69,8 @@ From start to finish running all scripts will take approximately 5 days.
 The following script is for further analysis suggested by reviewers of the manuscript. This analysis provides further comparison between our and other odonate genomes but does not alter the genome assembly itself.
 
 - 20_Revisions.sh
+	- 20_Revisions_BUSCO.R
+	- 20_Revisions_NX_graph.R
 
 
 # Hi-C scaffolding
